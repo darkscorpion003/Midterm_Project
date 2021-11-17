@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="image/x-icon" href="logo.png"/>
+	<meta name="Description" content="Prelim, PlayStop (Your One Stop Game Stop)">
+      <meta name="Author" content="Matthew Roa Sison">
+	<title>PlayStop</title>
+</head>
+<body>
+	<div id="whole_body">
+		<div id="header"> <!-- PRIMARY HEADER -->
+			<div id="shoplogo"> <!-- SHOP LOGO NAME HEADER -->
+				<img src="C:\Users\eronm\Downloads\shopname.png" alt="Smiley face" height="73" width="190"> <!-- SHOP LOGO NAME -->
+			</div>	
+				<div id="tagline"><!-- SHOP TAGLINE -->
+					<label>Your One Stop Game Stop</label>
+				</div>
+		</div>
+				<div id= "header2"> <!-- 2ND MENU HEADER -->
+					<h6>Sign up</h6>	
+				</div>
+					<div id="body"> <!-- WHOLE BODY DIVIDER -->
+						<div id="whitebox1"> <!-- LEFT WHITEBOX FORM -->
+							<br>
+							<h2  class="loginheaderleft"><pre>CREATE PLAY STOP ACCOUNT HERE</pre></h2> <!-- LEFT WHITEBOX LABEL -->
+							<hr>
+								<h3  class="fullname"><pre>Fullname:</pre></h3>
+							<input type="text" placeholder="Enter Name" class="textFields" name="" id="fullName" autocomplete="off" required=""> <!-- This is to get the users name -->
+								<h3  class="email"><pre>E-mail Address:</pre></h3>
+							<input type="text" placeholder="Enter Email Address" class="textFields" name="" id="email" autocomplete="off" required=""> <!-- To have a record of user's email -->
+								<h3  class="contact"><pre>Contact Number:</pre></h3>
+							<input type="text" placeholder="+63" class="textFields" name="" id="contact" autocomplete="off" required=""> <!-- To save a contact of a customer -->
+								<h3  class="password"><pre>Password:</pre></h3>
+							<input type="text" placeholder="Create Password" class="textFields" name="" id="password" autocomplete="off" required=""> <!-- Users/Customers personal password -->
+								<br>
+								<input type="checkbox" class="checkBox" name="" id="checkbox2"> <!-- To reveal the password -->
+									<h3  class="showpassword1"><pre>Show password</pre></h3>
+									<h3  class="confirmpass"><pre>Confirm Password:</pre></h3>
+							<input type="text" placeholder="Re-type Password" class="textFields" name="" id="confirmpassword" autocomplete="off" required=""> <!-- Confirmation of the password -->
+								<br>
+								<input type="checkbox" class="checkBox" name="" id="checkbox1"> <!-- To reveal the password -->
+									<h3  class="showpassword2"><pre>Show password</pre></h3>	
+									<div>
+										<label>
+        									<input type="checkbox" name="remember" style="margin-top:20px; margin-left: 100px; ">I have read and understood PlayStop <a href="#" style="color:#757500">Terms of Service</a> & <a href="#" style="color:#757500">Privacy Policy</a> <!-- Terms & Conditions of the Online Shop -->
+      									</label>
+      								</div>	
+      								<br>
+								<input type="button" class="createaccountbtn" value="Create Account"> <!-- Creation of the whole account -->
+					</div>
+							<div id="whitebox2"> <!-- RIGHT WHITEBOX FORM -->
+								<br>
+								<h2  class="loginheaderright"><pre>REGISTER USING SOCIAL MEDIA ACCOUNT</pre></h2> <!-- RIGHT WHITEBOX LABEL -->
+								<hr>
+								<a href="#">
+									<div id="psbox">
+										<img src="C:\Users\eronm\Downloads\logo.png" class="pslogo" style="margin-top: 15px;"><span style="margin-right: 120px; font-size: 17pt;">Sign up with Playstop</span> <!-- PLAYSTOP BUTTON IMG -->
+									</div><br>
+								</a>
+								<a href="#">
+									<div id="fbbox">
+										<img src="C:\Users\eronm\Downloads\fbpng.png" class="fblogo" style="margin-top: 10px;"><span style="margin-right: 110px; font-size: 17pt;">Sign up with Facebook</span> <!-- FACEBOOK BUTTON IMG -->
+									</div><br>
+								</a>
+								<a href="#">
+									<div id="googlebox">
+										<img src="C:\Users\eronm\Downloads\googlepng.png" class="googlelogo" style="margin-top: 10px;"><span style="margin-right: 140px; font-size: 17pt;">Sign up with Google</span> <!-- GOOGLE BUTTON IMG -->
+									</div><br>
+								</a>
+							</div>
+							<h4 class= "or">OR</h4>
+						</div>
+
+	</div>
+</body>
+</html>
+
+<style type="text/css">
+		
+		body{
+			background-color: #333652;
+			width: 100%;
+			height: 1000%;
+			margin: 0;
+		}
+
+		#header{
+			top:0;
+			position: sticky;
+			background-color: #FAD02C;
+			padding: 1px;
+			height: 70px;
+		}
+
+		#tagline{
+			font-family: "Bauhaus 93";
+			color: #283747  ; 
+			font-size: 28pt;
+			margin-left: 250px;
+			margin-top: -67px;
+		}
+
+		#header2{
+			position: static;
+			background-color: white;
+			padding: 1px;
+			height: 70px;
+		}
+
+		#header2 h6 {
+			font-family: Arial;
+			color: black;
+			font-size: 30pt;
+			text-align: right;
+			margin-right: 900px;
+			margin-top: 10px;
+		}
+
+		#body{
+			height: 1000px;
+			width: 1000px;
+		}
+
+		#shoplogo img{
+			border-top-left-radius: 10px;
+			border-top-right-radius: 10px;
+			margin-top: -2px;
+			margin-left: 30px;
+		}
+
+		#whitebox1{
+			margin-left: 150px;
+			margin-top: 100px;
+			background-color: rgba(233, 234, 236, 0.8);
+			height: 800px;
+			width: 70%;
+			box-shadow: 4px 4px 5px #303030;
+			border-radius: 10px;
+		}
+
+		#whitebox1 pre{
+			font-family: Yu Gothic;
+			font-size: 11pt;
+		}
+		.textFields{
+		text-align: left;
+		margin-top: -15px;
+		border-radius: 5px;
+        background-color: #EEEDE7;
+        border: 2px solid rgba(0.5,0.5,0.5,0.5);
+        border-bottom: 2px solid;
+        outline: none;
+        font-family: "Yu Gothic";
+        color: black;
+        font-size: 12pt;
+        height: 40px;
+        padding: 0;
+        width: 500px;
+        margin-left: 100px;
+    	}
+
+    	.fullname{
+    		margin-left: 100px;
+    		margin-top: 0px;
+    	}
+
+    	.email{
+    		margin-left: 100px;
+    	} 
+
+    	.contact{
+    		margin-left: 100px;
+    	}
+
+    	.password{
+    		margin-left: 100px;
+    	}
+
+    	.checkBox{
+    		margin-top: 15px;
+    		margin-left: 100px;
+    		width: 20px;
+    		height: 20px;
+    	}
+
+    	.showpassword1{
+    		margin-left: 125px;
+    		margin-top: -38px;
+    	}
+
+    	.showpassword2{
+    		margin-left: 125px;
+    		margin-top: -38px;
+    	}
+
+    	.confirmpass{
+    		margin-left: 100px;
+    	}
+
+    	.createaccountbtn{
+    		font-family: Yu Gothic;
+		 	background-color: #4CAF50;
+			border: none;
+			color: white;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+	  		font-size: 16px;
+	  		margin-left: 430px;
+	  		margin-top: 15px;
+	  		border-radius: 12px;
+	  		cursor: pointer;
+		}
+
+		.createaccountbtn{
+			background-color: white; 
+			color: black; 
+			border: 2px solid #333652;
+		}
+
+		.createaccountbtn:hover {
+		  	background-color: #FAD02C;
+		  	color: #000000 ;
+		}
+
+		.loginheaderleft{
+			font-family: Yu Gothic;
+			color: black;
+			letter-spacing: 2px;
+			margin-left: 170px;
+		}	
+
+		.or{
+			font-family: Yu Gothic;
+			margin-left: 930px;
+			margin-top: -300px;
+			color: white;
+		}
+
+		#psbox{
+			border-radius: 80px;
+			background-color: #333652;
+			margin-top: 40px;
+			margin-left: 110px;
+			height: 100px;
+			width: 500px;
+			transition: 0.25s;
+		}
+
+		#psbox:hover{
+			background-color: #FAD02C;
+		  	color: black;
+		}
+
+		#fbbox{
+			border-radius: 80px;
+			background-color: #333652;
+			margin-left: 110px;
+			height: 100px;
+			width: 500px;
+			transition: 0.25s;
+		}
+
+		#fbbox:hover{
+			background-color: #FAD02C;
+		  	color: black;
+		}
+
+		#googlebox{
+			border-radius: 80px;
+			background-color: #333652;
+			margin-left: 110px;
+			height: 100px;
+			width: 500px;
+			transition: 0.25s;
+		}
+
+		#googlebox:hover{
+			background-color: #FAD02C;
+		  	color: black;
+		}
+
+		.pslogo{
+			margin-left: 35px;
+			height: 70px;
+			width: 70px;
+		}
+
+		.fblogo{
+			margin-left: 30px;
+			height: 80px;
+			width: 80px;
+		}
+
+		.googlelogo{
+			margin-left: 30px;
+			height: 80px;
+			width: 80px;
+		}
+
+		#whitebox2{
+			margin-left: 1050px;
+			margin-top: -700px;
+			background-color: rgba(233, 234, 236, 0.8);
+			height: 500px;
+			width: 70%;
+			box-shadow: 4px 4px 5px #303030;
+			border-radius: 10px;
+		}
+
+		#whitebox2 span{
+			font-family: Yu Gothic;
+			color: white;
+			margin-top: 35px;
+			float: right;
+
+		}
+
+		.loginheaderright{
+			font-family: Yu Gothic;
+			color: black;
+			letter-spacing: 2px;
+			margin-left: 140px;
+		}	
+			
+
+</style>
